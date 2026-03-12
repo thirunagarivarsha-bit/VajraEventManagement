@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vajra Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">CornerStone Events</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-3">
+                    <button id="themeBtn" class="btn btn-outline-light btn-sm">Dark Mode</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center">
+    <h1 id="welcomeText">Discover Amazing Local Events</h1>
+    <p>Find weddings, concerts, hackathons, and festivals near you</p>
+    <img src="event.jpg" class="hero-img" alt="Hero Event">
+    <br><br>
+    <button id="exploreBtn" class="btn btn-light">Explore Events</button>
+</section>
+
+<!-- Featured Event -->
+<section class="container text-center mt-5">
+    <h2>Today's Featured Event</h2>
+    <h3 id="featuredEvent"></h3>
+</section>
+
+<!-- Popular Events -->
+<section class="featured container text-center mt-5">
+    <h2>Popular Events</h2>
+    <div class="row mt-4">
+        <div class="col-md-4"><div class="feature-card"><h4>Hackathon 💻</h4><p>24 hour coding challenge.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><h4>Music Concert 🎤</h4><p>Enjoy live performances.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><h4>Food Festival 🍕</h4><p>Delicious food from many cultures.</p></div></div>
+    </div>
+</section>
+
+<!-- Contact Fixed Button -->
+<div class="contact-fixed">Contact Us</div>
+
+<!-- Footer -->
+<footer class="text-center mt-5 p-2 bg-dark text-light">
+    <p>© 2026 Vajra Events | All rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

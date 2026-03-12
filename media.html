@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vajra Events | Media</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Vajra Events</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link active" href="media.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-3">
+                    <button id="themeBtn" class="btn btn-outline-light btn-sm">Dark Mode</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="title mt-4 text-center">Event Media Gallery</h1>
+
+<!-- Image Gallery -->
+<section class="gallery">
+    <img src="https://godreamcast.com/blog/wp-content/uploads/2024/12/conference-inperson-events-1024x682.jpg" alt="Event Image">
+    <img src="https://www.eventbookings.com/wp-content/uploads/2018/03/Food-art-exhibit-in-event-1024x686.jpg" alt="Event Image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s" alt="Event Image">
+    <img src="https://weddingsutra.com/images/Vendor_Images/Wedding_Planners/aakar-events/aakar-events-01.jpg" alt="Event Image">
+</section>
+
+<!-- Videos -->
+<h2 class="media-title">Hackathon Event</h2>
+<div class="video-box">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QTPSSerVZsc" title="Hackathon video" allowfullscreen></iframe>
+</div>
+
+<h2 class="media-title">Music Concert</h2>
+<div class="video-box">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4-Eg5J63X2c" title="Music event" allowfullscreen></iframe>
+</div>
+
+<h2 class="media-title">Food Festival</h2>
+<div class="video-box">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JHtbVZEwUeI" title="Food festival" allowfullscreen></iframe>
+</div>
+
+<!-- Audio -->
+<h2 class="media-title">Event Music</h2>
+<div class="audio-box">
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<!-- Footer & Contact -->
+<footer class="text-center mt-5 p-3">
+    <p>© 2026 Vajra Events. All Rights Reserved.</p>
+</footer>
+<div class="contact-fixed">Contact Us</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vajra Events | Contact</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Vajra Events</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-3">
+                    <button id="themeBtn" class="btn btn-outline-light btn-sm">Dark Mode</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="title mt-4 text-center">Contact & Event Details</h1>
+
+<!-- Event Table -->
+<table class="event-table mt-4">
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Location</th>
+    </tr>
+    <tr>
+        <td>Hackathon</td>
+        <td>May 12</td>
+        <td>Hyderabad</td>
+    </tr>
+    <tr>
+        <td>Music Concert</td>
+        <td>May 20</td>
+        <td>Gachibowli</td>
+    </tr>
+    <tr>
+        <td>Tech Workshop</td>
+        <td>June 2</td>
+        <td>Hitech City</td>
+    </tr>
+</table>
+
+<!-- Map -->
+<div class="map-box mt-4">
+    <iframe src="https://www.google.com/maps?q=Hyderabad&output=embed" width="500" height="350" allowfullscreen></iframe>
+</div>
+
+<!-- Contact Form -->
+<h2 class="title text-center mt-4">Send Message</h2>
+<form class="form-box">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Send</button>
+</form>
+
+<!-- Footer & Contact -->
+<footer class="text-center mt-5 p-3">
+    <p>© 2026 Vajra Events. All Rights Reserved.</p>
+</footer>
+<div class="contact-fixed">Contact Us</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

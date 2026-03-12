@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vajra Events | Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Vajra Events</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-link active" href="register.html">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-3">
+                    <button id="themeBtn" class="btn btn-outline-light btn-sm">Dark Mode</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="title text-center mt-4">Event Registration</h1>
+
+<form id="regForm" class="form-box">
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name" required>
+    <div id="nameError" class="text-danger"></div>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter email" required>
+    <div id="emailError" class="text-danger"></div>
+
+    <label>Phone</label>
+    <input type="number" placeholder="Enter phone">
+    <div id="numberError" class="text-danger"></div>
+
+    <label>Select Event</label>
+    <select>
+        <option>Weddings</option>
+        <option>Hackathon</option>
+        <option>Music Concert</option>
+        <option>Birthday Party</option>
+        <option>Food Festival</option>
+        <option>Dance Show</option>
+        <option>Startup Meetup</option>
+        <option>Sports Event</option>
+    </select>
+
+    <label>Gender</label>
+    <div class="gender-options">
+        <input type="radio" id="male" name="g" value="Male"><label for="male">Male</label>
+        <input type="radio" id="female" name="g" value="Female"><label for="female">Female</label>
+        <input type="radio" id="other" name="g" value="Other"><label for="other">Other</label>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+<footer class="text-center mt-5 p-3">
+    <p>© 2026 Vajra Events. All Rights Reserved.</p>
+</footer>
+<div class="contact-fixed">Contact Us</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
